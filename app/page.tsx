@@ -37,12 +37,19 @@ export default function Home() {
           </nav>
           <button
             onClick={() => setLang(lang === "es" ? "en" : "es")}
-            className="rounded-full border border-white/10 bg-white/5 px-3 py-1 font-mono text-xs text-slate-300 transition hover:bg-white/10"
+            className="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 font-mono text-xs text-slate-300 transition hover:bg-white/10"
             aria-label="Toggle language"
           >
             {lang === "es" ? "EN" : "ES"}
           </button>
         </div>
+        {/* compact nav for mobile (the row above hides its links under sm) */}
+        <nav className="flex flex-wrap justify-center gap-x-5 gap-y-1 border-t border-white/5 px-6 pb-3 text-xs text-slate-400 sm:hidden">
+          <a href="#about" className="transition hover:text-white">{t.nav.about}</a>
+          <a href="#projects" className="transition hover:text-white">{t.nav.projects}</a>
+          <a href="#stack" className="transition hover:text-white">{t.nav.stack}</a>
+          <a href="#contact" className="transition hover:text-white">{t.nav.contact}</a>
+        </nav>
       </header>
 
       <main id="top" className="mx-auto max-w-5xl px-6">
