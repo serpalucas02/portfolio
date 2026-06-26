@@ -9,11 +9,3 @@ Web bilingüe (ES/EN) con tema oscuro: presenta mis proyectos blockchain (3 dApp
 ## Stack
 
 Next.js (App Router) · React · TypeScript · Tailwind CSS · deploy en Vercel.
-
-## Desarrollo
-
-```bash
-npm install
-npm run dev      # http://localhost:3000
-npm run build    # build de producción
-```
