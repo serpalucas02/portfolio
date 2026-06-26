@@ -32,7 +32,7 @@ export const PROJECTS = [
   {
     key: "miniswap",
     emoji: "🔁",
-    demo: "https://miniswap-delta.vercel.app",
+    demo: "https://miniswap-project.vercel.app",
     repo: "https://github.com/serpalucas02/miniswap",
     tech: ["Solidity", "Foundry", "AMM / DeFi", "Next.js", "wagmi"],
     glow: "bg-violet-500/10",
