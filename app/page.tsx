@@ -44,7 +44,7 @@ export default function Home() {
           </button>
         </div>
         {/* compact nav for mobile (the row above hides its links under sm) */}
-        <nav className="flex flex-wrap justify-center gap-x-5 gap-y-1 border-t border-white/5 px-6 pb-3 text-xs text-slate-400 sm:hidden">
+        <nav className="flex flex-wrap justify-center gap-x-5 gap-y-1 border-t border-white/5 px-6 py-3 text-xs text-slate-400 sm:hidden">
           <a href="#about" className="transition hover:text-white">{t.nav.about}</a>
           <a href="#projects" className="transition hover:text-white">{t.nav.projects}</a>
           <a href="#stack" className="transition hover:text-white">{t.nav.stack}</a>
