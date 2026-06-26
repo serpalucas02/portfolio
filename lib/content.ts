@@ -22,7 +22,7 @@ export const PROJECTS = [
   {
     key: "streampay",
     emoji: "💸",
-    demo: "https://streampay-phi.vercel.app",
+    demo: "https://streampay-project.vercel.app",
     repo: "https://github.com/serpalucas02/streampay",
     tech: ["Solidity", "Foundry", "ERC-20", "Next.js", "wagmi"],
     glow: "bg-sky-500/10",
